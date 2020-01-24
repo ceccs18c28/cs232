@@ -1,0 +1,35 @@
+CEC CS 18 060
+Jessal John Mammen
+
+Date: 24-01-2020
+
+
+#1: Git Tutorials
+
+Work file: Script1.txt
+
+Input: test.txt
+
+Output: Added a file to Git- test.txt
+
+
+Remarks: Learned how to create a repository, create a file and push to GitHub.  
+
+
+-------------------------------------
+-------------------------------------
+
+#2: Linux Commands
+
+Work file: work.txt
+
+Perform Linux Operstions
+
+Input: numb.txt, names.txt
+
+
+Remarks: Tried on linux commands and observed the results using various files 
+
+
+
+
