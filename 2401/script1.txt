@@ -1,0 +1,62 @@
+Script started on Friday 24 January 2020 10:10:05 AM IST
+]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c28[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c28[00m$ cd
+]0;ceclab2@ceclab2-H110M-S2: ~[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~[00m$ mkdir ceccs18c28
+]0;ceclab2@ceclab2-H110M-S2: ~[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~[00m$ cd ceccs18c28
+]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c28[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c28[00m$ mkdir cs232
+]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c28[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c28[00m$ cd cs232
+]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c28/cs232[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c28/cs232[00m$ git init
+Initialized empty Git repository in /home/ceclab2/ceccs18c28/cs232/.git/
+]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c28/cs232[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c28/cs232[00m$ git pull http://github.com/ceccs18c xx/cs232
+Username for 'https://github.com': ceccs18c28
+Password for 'https://ceccs18c28@github.com': 
+remote: Repository not found.
+fatal: repository 'https://github.com/ceccs18cxx/cs232/' not found
+]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c28/cs232[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c28/cs232[00m$ git pull http://github.com/ceccs18c xx/cs232[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K8c 28/cs22[K32
+fatal: Couldn't find remote ref HEAD
+]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c28/cs232[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c28/cs232[00m$ git pull http://github.com/ceccs18c 28/cs232
+fatal: Couldn't find remote ref HEAD
+]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c28/cs232[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c28/cs232[00m$ nano readme.md
+[?1049h[1;24r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ New File ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3              File: readme.md                                   [23;1H^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3d[1;71H(B[0;7mModified[3d(B[mFOSS lab repository[4d[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;62H(B[0;7mFile Name to Write: readme.md                               [23d^G(B[m Get Help     (B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append[49G(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G(B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m To Files[22;30H[?25l[C[39;49m(B[m[1K (B[0;7m[ Wrote 2 lines ](B[m[K[4d[22d[J[1;71H(B[0;7m        [24;80H(B[m[24;1H[?12l[?25h[?1049l[?1l>]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c28/cs232[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c28/cs232[00m$ git agg [K[K[Kdd readme.md
+]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c28/cs232[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c28/cs232[00m$ git [K[K[K[Kgit config --global user.email "you @example.com"[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K"jes saljohn32@hotmail,[K.com"
+]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c28/cs232[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c28/cs232[00m$   git config --global user.name "Yo ur Name"[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K"Je ssal"
+]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c28/cs232[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c28/cs232[00m$ git commit -m "First commit"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"A"d"d"e"d" "r"e"a"d"m"e" "f"i"l"e"
+[master (root-commit) b0044c7] Added readme file
+ 1 file changed, 2 insertions(+)
+ create mode 100644 readme.md
+]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c28/cs232[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c28/cs232[00m$ git remote add origin https://githu b.com/ceccs18cxx/cs232[K[K[K[K[K[K[K[K[Kc28/cs232
+]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c28/cs232[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c28/cs232[00m$ git push -u origin master
+Username for 'https://github.com': ceccs18c28
+Password for 'https://ceccs18c28@github.com': 
+Counting objects: 3, done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 238 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+error: RPC failed; curl 56 GnuTLS recv error (-54): Error in the pull function.
+fatal: The remote end hung up unexpectedly
+fatal: The remote end hung up unexpectedly
+Everything up-to-date
+]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c28/cs232[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c28/cs232[00m$ nano test.txt
+[?1049h[1;24r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ New File ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3              File: test.txt                                    [23;1H^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3d[1;71H(B[0;7mModified[3d(B[mFoss   OSS[4d[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;62H(B[0;7mFile Name to Write: test.txt                                [23d^G(B[m Get Help     (B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append[49G(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G(B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m To Files[22;29H[?25l[31G[39;49m(B[m[1K (B[0;7m[ Wrote 2 lines ](B[m[K[4d[22d[J[1;71H(B[0;7m        [24;80H(B[m[24;1H[?12l[?25h[?1049l[?1l>]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c28/cs232[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c28/cs232[00m$ git add test.txt
+]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c28/cs232[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c28/cs232[00m$ git commit -m "test"
+[master 91c2b9c] test
+ 1 file changed, 2 insertions(+)
+ create mode 100644 test.txt
+]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c28/cs232[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c28/cs232[00m$ git remote add origin https://githu b.com/ceccs18cxx/cs232[K[K[K[K[K[K[K[K28/cs232
+fatal: remote origin already exists.
+]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c28/cs232[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c28/cs232[00m$ git push -u oro[Kigin master
+Username for 'https://github.com': ceccs18c28
+Password for 'https://ceccs18c28@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 277 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/ceccs18c28/cs232
+   b0044c7..91c2b9c  master -> master
+Branch master set up to track remote branch master from origin.
+]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c28/cs232[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c28/cs232[00m$ exit
+exit
+
+Script done on Friday 24 January 2020 10:33:31 AM IST

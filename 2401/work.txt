@@ -1,0 +1,274 @@
+Script started on Friday 24 January 2020 10:53:30 AM IST
+]0;ceclab2@ceclab2-H110M-S2: ~/.local/share/Trash/files/ceccs18c28[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/.local/share/Trash/files/ceccs18c28[00m$ ls
+[0m[01;34mcs232[0m  script1.txt  work.txt
+]0;ceclab2@ceclab2-H110M-S2: ~/.local/share/Trash/files/ceccs18c28[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/.local/share/Trash/files/ceccs18c28[00m$ ls-[K -l
+total 16
+drwxrwxr-x 2 ceclab2 ceclab2 4096 Jan 24 10:04 [0m[01;34mcs232[0m
+-rw-rw-r-- 1 ceclab2 ceclab2 9482 Jan 24 10:33 script1.txt
+-rw-rw-r-- 1 ceclab2 ceclab2    0 Jan 24 10:53 work.txt
+]0;ceclab2@ceclab2-H110M-S2: ~/.local/share/Trash/files/ceccs18c28[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/.local/share/Trash/files/ceccs18c28[00m$ ls-lt
+ls-lt: command not found
+]0;ceclab2@ceclab2-H110M-S2: ~/.local/share/Trash/files/ceccs18c28[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/.local/share/Trash/files/ceccs18c28[00m$ ls -lt
+total 16
+-rw-rw-r-- 1 ceclab2 ceclab2    0 Jan 24 10:53 work.txt
+-rw-rw-r-- 1 ceclab2 ceclab2 9482 Jan 24 10:33 script1.txt
+drwxrwxr-x 2 ceclab2 ceclab2 4096 Jan 24 10:04 [0m[01;34mcs232[0m
+]0;ceclab2@ceclab2-H110M-S2: ~/.local/share/Trash/files/ceccs18c28[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/.local/share/Trash/files/ceccs18c28[00m$ ls -ltr
+total 16
+drwxrwxr-x 2 ceclab2 ceclab2 4096 Jan 24 10:04 [0m[01;34mcs232[0m
+-rw-rw-r-- 1 ceclab2 ceclab2 9482 Jan 24 10:33 script1.txt
+-rw-rw-r-- 1 ceclab2 ceclab2    0 Jan 24 10:53 work.txt
+]0;ceclab2@ceclab2-H110M-S2: ~/.local/share/Trash/files/ceccs18c28[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/.local/share/Trash/files/ceccs18c28[00m$ ls ab* -d
+ls: cannot access 'ab*': No such file or directory
+]0;ceclab2@ceclab2-H110M-S2: ~/.local/share/Trash/files/ceccs18c28[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/.local/share/Trash/files/ceccs18c28[00m$ ls alias
+ls: cannot access 'alias': No such file or directory
+]0;ceclab2@ceclab2-H110M-S2: ~/.local/share/Trash/files/ceccs18c28[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/.local/share/Trash/files/ceccs18c28[00m$ alias
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -alF'
+alias ls='ls --color=auto'
+]0;ceclab2@ceclab2-H110M-S2: ~/.local/share/Trash/files/ceccs18c28[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/.local/share/Trash/files/ceccs18c28[00m$ alias ll=’ls -al ’
+bash: alias: -al’: not found
+]0;ceclab2@ceclab2-H110M-S2: ~/.local/share/Trash/files/ceccs18c28[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/.local/share/Trash/files/ceccs18c28[00m$ unalias ll
+]0;ceclab2@ceclab2-H110M-S2: ~/.local/share/Trash/files/ceccs18c28[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/.local/share/Trash/files/ceccs18c28[00m$ sort -n fn
+sort: cannot read: fn: No such file or directory
+]0;ceclab2@ceclab2-H110M-S2: ~/.local/share/Trash/files/ceccs18c28[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/.local/share/Trash/files/ceccs18c28[00m$ sort -n fn[K[K[K[K[K[K[K[K[K[Knano numb[Kb.txt
+[?1049h[1;24r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ New File ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3              File: numb.txt                                    [23;1H^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3d[1;71H(B[0;7mModified[3d(B[m1[4d2[5d3[6d4[7d5[8d6[9d7[10d[A7[K[A6[K[A5[K[A4[K[A3[K[A2[K[22d[K[4d[A1[K2[4d5[5d4[6d7[7d56 [8d1[9d[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;62H(B[0;7mFile Name to Write: numb.txt                                [23d^G(B[m Get Help     (B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append[49G(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G(B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m To Files[22;29H[?25l[31G[39;49m(B[m[1K (B[0;7m[ Wrote 7 lines ](B[m[K[9d[22d[J[1;71H(B[0;7m        [24;80H(B[m[24;1H[?12l[?25h[?1049l[?1l>]0;ceclab2@ceclab2-H110M-S2: ~/.local/share/Trash/files/ceccs18c28[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/.local/share/Trash/files/ceccs18c28[00m$ sort -n fn^?[K[K[K[K numb.txt [A
+
+1
+2
+4
+5
+5
+7
+]0;ceclab2@ceclab2-H110M-S2: ~/.local/share/Trash/files/ceccs18c28[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/.local/share/Trash/files/ceccs18c28[00m$ sort -nk7 fn[K[Knum,[Kb./ [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[Kb.t xt
+
+1
+2
+4
+5
+5
+7
+]0;ceclab2@ceclab2-H110M-S2: ~/.local/share/Trash/files/ceccs18c28[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/.local/share/Trash/files/ceccs18c28[00m$ [K]0;ceclab2@ceclab2-H110M-S2: ~/.local/share/Trash/files/ceccs18c28[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/.local/share/Trash/files/ceccs18c28[00m$ sort -t’$\t’ -k7 fn[K[Knumb.txt
+sort: multi-character tab ‘\’$t\’’
+]0;ceclab2@ceclab2-H110M-S2: ~/.local/share/Trash/files/ceccs18c28[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/.local/share/Trash/files/ceccs18c28[00m$ cut -f3 fn\\[K[K[K[Knumb.txt
+2
+5
+4
+7
+5
+1
+
+]0;ceclab2@ceclab2-H110M-S2: ~/.local/share/Trash/files/ceccs18c28[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/.local/share/Trash/files/ceccs18c28[00m$ cut f1-3
+cut: you must specify a list of bytes, characters, or fields
+Try 'cut --help' for more information.
+]0;ceclab2@ceclab2-H110M-S2: ~/.local/share/Trash/files/ceccs18c28[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/.local/share/Trash/files/ceccs18c28[00m$ cut f1-3 "Justi jessal jona than"
+cut: you must specify a list of bytes, characters, or fields
+Try 'cut --help' for more information.
+]0;ceclab2@ceclab2-H110M-S2: ~/.local/share/Trash/files/ceccs18c28[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/.local/share/Trash/files/ceccs18c28[00m$ nano name.tc[Kxt
+[?1049h[1;24r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[22;40H(B[0;7m[ New File ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                  File: name.txt                                           [23;1H^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[24;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line[3d[1;82H(B[0;7mModified[3d(B[mjustin jessal jonathan jes[22d[K[3;27Hswin[4dy[5d[Ay[K[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                               [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [24;16H (B[0;7m^C(B[m Cancel[K[22;62H(B[0;7mFile Name to Write: name.txt                                [23d^G(B[m Get Help[19G(B[0;7mM-D(B[m DOS Format    (B[0;7mM-A(B[m Append[23;55H(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G  (B[0;7mM-M(B[m Mac Format    (B[0;7mM-P(B[m Prepend[55G(B[0;7m^T(B[m To Files[22;29H(B[0;7m (B[m(B[0;7mt(B[m[?25l[22;37H[39;49m(B[m[1K (B[0;7m[ Wrote 2 lines ](B[m[K[4d[22d[J[1;82H(B[0;7m        [24;91H(B[m[24;1H[?12l[?25h[?1049l[?1l>]0;ceclab2@ceclab2-H110M-S2: ~/.local/share/Trash/files/ceccs18c28[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/.local/share/Trash/files/ceccs18c28[00m$ cut -f3 fn~[K[K[Kname.txt
+justin jessal jonathan jesswin
+
+]0;ceclab2@ceclab2-H110M-S2: ~/.local/share/Trash/files/ceccs18c28[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/.local/share/Trash/files/ceccs18c28[00m$ nano name.txt
+[?1049h[1;24r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[22;38H(B[0;7m[ Reading File ][3d(B[m[22;44H(B[0;7m 2 lines[5d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                  File: name.txt                                           [3;1H(B[mjustin jessal jonathan jesswin[23d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[24;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line[3djustin [1;82H(B[0;7mModified[3;7H(B[m[1P[K[4djessal jonathan jesswinjessal j[1P[K[5djonathan jesswinjonat[22d[K[5;7Han [1P[K[6djesswin[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                               [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [24;16H (B[0;7m^C(B[m Cancel[K[22;62H(B[0;7mFile Name to Write: name.txt                                [23d^G(B[m Get Help[19G(B[0;7mM-D(B[m DOS Format    (B[0;7mM-A(B[m Append[23;55H(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G  (B[0;7mM-M(B[m Mac Format    (B[0;7mM-P(B[m Prepend[55G(B[0;7m^T(B[m To Files[22;29H[?25l[22;37H[39;49m(B[m[1K (B[0;7m[ Wrote 5 lines ](B[m[K[6d[22d[J[1;82H(B[0;7m        [24;91H(B[m[24;1H[?12l[?25h[?1049l[?1l>]0;ceclab2@ceclab2-H110M-S2: ~/.local/share/Trash/files/ceccs18c28[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/.local/share/Trash/files/ceccs18c28[00m$ cut -f3 fn[K[Kname.txt
+justin
+jessal
+jonathan
+jesswin
+
+]0;ceclab2@ceclab2-H110M-S2: ~/.local/share/Trash/files/ceccs18c28[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/.local/share/Trash/files/ceccs18c28[00m$ cut -f-3
+man   ^C
+]0;ceclab2@ceclab2-H110M-S2: ~/.local/share/Trash/files/ceccs18c28[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/.local/share/Trash/files/ceccs18c28[00m$ man cut
+[?1049h[?1h=CUT(1)                                User Commands                               CUT(1)[m
+[m
+[1mNAME[0m[m
+       cut - remove sections from each line of files[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mcut[0m [4mOPTION[24m... [[4mFILE[24m]...[m
+[m
+[1mDESCRIPTION[0m[m
+       Print selected parts of lines from each FILE to standard output.[m
+[m
+       With no FILE, or when FILE is -, read standard input.[m
+[m
+       Mandatory arguments to long options are mandatory for short options too.[m
+[m
+       [1m-b[0m, [1m--bytes[0m=[4mLIST[24m[m
+              select only these bytes[m
+[m
+       [1m-c[0m, [1m--characters[0m=[4mLIST[24m[m
+              select only these characters[m
+[m
+       [1m-d[0m, [1m--delimiter[0m=[4mDELIM[24m[m
+              use DELIM instead of TAB for field delimiter[m
+[7m Manual page cut(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-f[0m, [1m--fields[0m=[4mLIST[24m[m
+[7m Manual page cut(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              select  only these fields;  also print any line that contains no delimiter[m
+[7m Manual page cut(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              character, unless the [1m-s[0m option is specified[m
+[7m Manual page cut(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-n[0m     (ignored)[m
+[7m Manual page cut(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--complement[0m[m
+[7m Manual page cut(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              complement the set of selected bytes, characters or fields[m
+[7m Manual page cut(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-s[0m, [1m--only-delimited[0m[m
+[7m Manual page cut(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              do not print lines not containing delimiters[m
+[7m Manual page cut(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--output-delimiter[0m=[4mSTRING[24m[m
+[7m Manual page cut(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              use STRING as the output delimiter the default is to use the input  delim‐[m
+[7m Manual page cut(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              iter[m
+[7m Manual page cut(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-z[0m, [1m--zero-terminated[0m[m
+[7m Manual page cut(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              line delimiter is NUL, not newline[m
+[7m Manual page cut(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--help[0m display this help and exit[m
+[7m Manual page cut(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--version[0m[m
+[7m Manual page cut(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              output version information and exit[m
+[7m Manual page cut(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Use  one,  and  only  one of [1m-b[0m, [1m-c[0m or [1m-f[0m.  Each LIST is made up of one range, or[m
+[7m Manual page cut(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       many ranges separated by commas.  Selected input is written  in  the  same  order[m
+[7m Manual page cut(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       that it is read, and is written exactly once.  Each range is one of:[m
+[7m Manual page cut(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       N      N'th byte, character or field, counted from 1[m
+[7m Manual page cut(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       N-     from N'th byte, character or field, to end of line[m
+[7m Manual page cut(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       N-M    from N'th to M'th (included) byte, character or field[m
+[7m Manual page cut(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-M[0m     from first to M'th (included) byte, character or field[m
+[7m Manual page cut(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mAUTHOR[0m[m
+[7m Manual page cut(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Written by David M. Ihnat, David MacKenzie, and Jim Meyering.[m
+[7m Manual page cut(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mREPORTING[0m [1mBUGS[0m[m
+[7m Manual page cut(1) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       GNU coreutils online help: <http://www.gnu.org/software/coreutils/>[m
+[7m Manual page cut(1) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Report cut translation bugs to <http://translationproject.org/team/>[m
+[7m Manual page cut(1) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mCOPYRIGHT[0m[m
+[7m Manual page cut(1) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Copyright  © 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL version[m
+[7m Manual page cut(1) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       3 or later <http://gnu.org/licenses/gpl.html>.[m
+[7m Manual page cut(1) line 48 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       This is free software: you are free to change and redistribute it.  There  is  NO[m
+[7m Manual page cut(1) line 49 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       WARRANTY, to the extent permitted by law.[m
+[7m Manual page cut(1) line 50 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 51 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mSEE[0m [1mALSO[0m[m
+[7m Manual page cut(1) line 52 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Full documentation at: <http://www.gnu.org/software/coreutils/cut>[m
+[7m Manual page cut(1) line 53 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       or available locally via: info '(coreutils) cut invocation'[m
+[7m Manual page cut(1) line 54 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 55 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[KGNU coreutils 8.25                    February 2017                               CUT(1)[m
+[7m Manual page cut(1) line 56 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page cut(1) line 56/78 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page cut(1) line 56/78 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page cut(1) line 56/78 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page cut(1) line 56/78 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page cut(1) line 56/78 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       N-     from N'th byte, character or field, to end of line[m
+[24;1H[K[7m Manual page cut(1) line 55/78 97% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page cut(1) line 54/78 97% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       N      N'th byte, character or field, counted from 1[m
+[24;1H[K[7m Manual page cut(1) line 53/78 95% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page cut(1) line 52/78 93% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       that it is read, and is written exactly once.  Each range is one of:[m
+[24;1H[K[7m Manual page cut(1) line 51/78 92% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       many ranges separated by commas.  Selected input is written  in  the  same  order[m
+[24;1H[K[7m Manual page cut(1) line 50/78 92% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       Use  one,  and  only  one of [1m-b[0m, [1m-c[0m or [1m-f[0m.  Each LIST is made up of one range, or[m
+[24;1H[K[7m Manual page cut(1) line 49/78 90% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page cut(1) line 48/78 87% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              output version information and exit[m
+[24;1H[K[7m Manual page cut(1) line 47/78 86% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--version[0m[m
+[24;1H[K[7m Manual page cut(1) line 46/78 83% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page cut(1) line 45/78 82% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--help[0m display this help and exit[m
+[24;1H[K[7m Manual page cut(1) line 44/78 82% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page cut(1) line 43/78 79% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              line delimiter is NUL, not newline[m
+[24;1H[K[7m Manual page cut(1) line 42/78 77% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-z[0m, [1m--zero-terminated[0m[m
+[24;1H[K[7m Manual page cut(1) line 41/78 76% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page cut(1) line 40/78 76% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              iter[m
+[24;1H[K[7m Manual page cut(1) line 39/78 73% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              use STRING as the output delimiter the default is to use the input  delim‐[m
+[24;1H[K[7m Manual page cut(1) line 38/78 73% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--output-delimiter[0m=[4mSTRING[24m[m
+[24;1H[K[7m Manual page cut(1) line 37/78 73% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page cut(1) line 36/78 71% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              do not print lines not containing delimiters[m
+[24;1H[K[7m Manual page cut(1) line 35/78 70% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-s[0m, [1m--only-delimited[0m[m
+[24;1H[K[7m Manual page cut(1) line 34/78 68% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page cut(1) line 33/78 68% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              complement the set of selected bytes, characters or fields[m
+[24;1H[K[7m Manual page cut(1) line 32/78 66% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--complement[0m[m
+[24;1H[K[7m Manual page cut(1) line 31/78 66% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page cut(1) line 30/78 64% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-n[0m     (ignored)[m
+[24;1H[K[7m Manual page cut(1) line 29/78 64% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page cut(1) line 28/78 62% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              character, unless the [1m-s[0m option is specified[m
+[24;1H[K[7m Manual page cut(1) line 27/78 59% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              select  only these fields;  also print any line that contains no delimiter[m
+[24;1H[K[7m Manual page cut(1) line 26/78 56% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-f[0m, [1m--fields[0m=[4mLIST[24m[m
+[24;1H[K[7m Manual page cut(1) line 25/78 56% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page cut(1) line 24/78 54% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              use DELIM instead of TAB for field delimiter[m
+[24;1H[K[7m Manual page cut(1) line 23/78 53% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-d[0m, [1m--delimiter[0m=[4mDELIM[24m[m
+[24;1H[K[7m Manual page cut(1) line 22/78 53% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page cut(1) line 21/78 51% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              select only these characters[m
+[24;1H[K[7m Manual page cut(1) line 20/78 51% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-c[0m, [1m--characters[0m=[4mLIST[24m[m
+[24;1H[K[7m Manual page cut(1) line 19/78 50% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page cut(1) line 18/78 47% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              select only these bytes[m
+[24;1H[K[7m Manual page cut(1) line 17/78 47% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-b[0m, [1m--bytes[0m=[4mLIST[24m[m
+[24;1H[K[7m Manual page cut(1) line 16/78 47% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page cut(1) line 15/78 44% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       Mandatory arguments to long options are mandatory for short options too.[m
+[24;1H[K[7m Manual page cut(1) line 14/78 41% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page cut(1) line 13/78 41% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       With no FILE, or when FILE is -, read standard input.[m
+[24;1H[K[7m Manual page cut(1) line 12/78 39% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page cut(1) line 11/78 37% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       Print selected parts of lines from each FILE to standard output.[m
+[24;1H[K[7m Manual page cut(1) line 10/78 37% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mDESCRIPTION[0m[m
+[24;1H[K[7m Manual page cut(1) line 9/78 35% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page cut(1) line 8/78 34% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mcut[0m [4mOPTION[24m... [[4mFILE[24m]...[m
+[24;1H[K[7m Manual page cut(1) line 7/78 34% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mSYNOPSIS[0m[m
+[24;1H[K[7m Manual page cut(1) line 6/78 33% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page cut(1) line 5/78 33% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       cut - remove sections from each line of files[m
+[24;1H[K[7m Manual page cut(1) line 4/78 31% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mNAME[0m[m
+[24;1H[K[7m Manual page cut(1) line 3/78 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page cut(1) line 2/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HMCUT(1)                                User Commands                               CUT(1)[m
+[24;1H[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 2/78 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-f[0m, [1m--fields[0m=[4mLIST[24m[m
+[7m Manual page cut(1) line 3/78 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              select  only these fields;  also print any line that contains no delimiter[m
+[7m Manual page cut(1) line 4/78 31% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              character, unless the [1m-s[0m option is specified[m
+[7m Manual page cut(1) line 5/78 33% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 6/78 33% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-n[0m     (ignored)[m
+[7m Manual page cut(1) line 7/78 34% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 8/78 34% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--complement[0m[m
+[7m Manual page cut(1) line 9/78 35% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              complement the set of selected bytes, characters or fields[m
+[7m Manual page cut(1) line 10/78 37% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 11/78 37% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-s[0m, [1m--only-delimited[0m[m
+[7m Manual page cut(1) line 12/78 39% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              do not print lines not containing delimiters[m
+[7m Manual page cut(1) line 13/78 41% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 14/78 41% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--output-delimiter[0m=[4mSTRING[24m[m
+[7m Manual page cut(1) line 15/78 44% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              use STRING as the output delimiter the default is to use the input  delim‐[m
+[7m Manual page cut(1) line 16/78 47% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              iter[m
+[7m Manual page cut(1) line 17/78 47% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 18/78 47% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-z[0m, [1m--zero-terminated[0m[m
+[7m Manual page cut(1) line 19/78 50% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              line delimiter is NUL, not newline[m
+[7m Manual page cut(1) line 20/78 51% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 21/78 51% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--help[0m display this help and exit[m
+[7m Manual page cut(1) line 22/78 53% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 23/78 53% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--version[0m[m
+[7m Manual page cut(1) line 24/78 54% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              output version information and exit[m
+[7m Manual page cut(1) line 25/78 56% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 26/78 56% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Use  one,  and  only  one of [1m-b[0m, [1m-c[0m or [1m-f[0m.  Each LIST is made up of one range, or[m
+[7m Manual page cut(1) line 27/78 59% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       many ranges separated by commas.  Selected input is written  in  the  same  order[m
+[7m Manual page cut(1) line 28/78 62% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       that it is read, and is written exactly once.  Each range is one of:[m
+[7m Manual page cut(1) line 29/78 64% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 30/78 64% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       N      N'th byte, character or field, counted from 1[m
+[7m Manual page cut(1) line 31/78 66% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 32/78 66% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       N-     from N'th byte, character or field, to end of line[m
+[7m Manual page cut(1) line 33/78 68% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 34/78 68% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       N-M    from N'th to M'th (included) byte, character or field[m
+[7m Manual page cut(1) line 35/78 70% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 36/78 71% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-M[0m     from first to M'th (included) byte, character or field[m
+[7m Manual page cut(1) line 37/78 73% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 38/78 73% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mAUTHOR[0m[m
+[7m Manual page cut(1) line 39/78 73% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Written by David M. Ihnat, David MacKenzie, and Jim Meyering.[m
+[7m Manual page cut(1) line 40/78 76% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 41/78 76% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mREPORTING[0m [1mBUGS[0m[m
+[7m Manual page cut(1) line 42/78 77% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       GNU coreutils online help: <http://www.gnu.org/software/coreutils/>[m
+[7m Manual page cut(1) line 43/78 79% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Report cut translation bugs to <http://translationproject.org/team/>[m
+[7m Manual page cut(1) line 44/78 82% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 45/78 82% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mCOPYRIGHT[0m[m
+[7m Manual page cut(1) line 46/78 83% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Copyright  © 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL version[m
+[7m Manual page cut(1) line 47/78 86% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       3 or later <http://gnu.org/licenses/gpl.html>.[m
+[7m Manual page cut(1) line 48/78 87% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       This is free software: you are free to change and redistribute it.  There  is  NO[m
+[7m Manual page cut(1) line 49/78 90% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       WARRANTY, to the extent permitted by law.[m
+[7m Manual page cut(1) line 50/78 92% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 51/78 92% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mSEE[0m [1mALSO[0m[m
+[7m Manual page cut(1) line 52/78 93% (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;ceclab2@ceclab2-H110M-S2: ~/.local/share/Trash/files/ceccs18c28[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/.local/share/Trash/files/ceccs18c28[00m$ [K]0;ceclab2@ceclab2-H110M-S2: ~/.local/share/Trash/files/ceccs18c28[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/.local/share/Trash/files/ceccs18c28[00m$ exit
+exit
+
+Script done on Friday 24 January 2020 11:40:51 AM IST
