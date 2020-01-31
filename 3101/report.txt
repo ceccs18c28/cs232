@@ -1,0 +1,25 @@
+CEC CS 18 C28
+Jessal John Mammen
+
+--------------------------------
+#1: Scripting Task
+--------------------------------
+
+Input: Downloaded pdf file of result of S1 December 2018
+	pdftotext -layout result_CHN.pdf
+	grep CHN18CS "result_CHN.txt">S1cres.txt
+	cat S1cres.txt
+	gedit script.py
+	python script.py
+
+--------------------------------
+Output: pdftotext -layout result_CHN.pdf : Convert pdf to .txt file
+	grep CHN18CS "result_CHN.txt">S1cres.txt : Selects line with the keword and write to new txt file
+	cat S1cres.txt : Display the file
+	gedit script.py : Open editor for python programming
+	python script.py : Output of the program
+
+	
+-------------------
+Remarks if any:  Learned to convert pdf file to text file
+
