@@ -1,0 +1,59 @@
+CEC CS 18 C28
+Jessal John Mammen
+
+--------------------------------
+#1: Scripting Task (t2)
+---------------------------------
+Continuing from the previous lab 31-01-2020
+
+---------------------------------
+Input & Output 
+
+pdftotext -layout result_CHN.pdf : Convert pdf to .txt file
+	grep CHN18CS "result_CHN.txt">S2cres.txt : Selects line with the keword and write to new txt file
+	cat S2cres.txt : Display the file
+	gedit script.py : Open editor for python programming
+	python script.py : Output of the program
+
+-------------------
+Remarks if any: Completed the task #t2 Scripting task. 
+		Didn't receive the document of name and register number; so displayed the register number and sgpa for students who passed in all subjects and number of failed subjects for the rest of the students.
+
+
+
+-------------------------------------
+-
+#2: Networking tasks (t3)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+
+	ifconfig -a
+	route -n
+	route add default gw 192.168.0.2
+	ping 192.168.0.1 		
+	cat /etc/resolv.conf
+	echo "nameserver 1.1.1.1" >> resolv.conf
+	
+
+--------------------------------
+Output: 
+
+	# ifconfig -a displays all available network interfaces
+	
+	# route -n displays kernal routing table
+	
+	# route add, is used add a new route to the table,
+	# route add default gw 192.168.0.2, a default gateway in this case
+
+	# echo "nameserver 1.1.1.1" >> /etc/resolv.conf
+	# to add 1.1.1.1 (1.1.1.1 is the DNS of Cloudflare) to system domain resolver configuration
+
+-------------------
+Remarks if any:
+
+I could not manipulate the routing table or access resolv.conf as student user wasn't in the sudoers list.
+
+
+
