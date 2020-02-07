@@ -306,4 +306,139 @@ usage: git [--version] [--help] [-C <path>] [-c name=value]
 These are common Git commands used in various situations:
 
 start a working area (see also: git help tutorial)
-   clone      Clone a reposi
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Forward-port local commits to the updated upstream head
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c28/cs232/3101[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c28/cs232/3101[00m$ cd ..
+]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c28/cs232[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c28/cs232[00m$ ls
+[0m[01;34m2401[0m  [01;34m3101[0m  readme.md
+]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c28/cs232[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c28/cs232[00m$ gti [K[K[Kit add[K[K[K[K[K[K[Ktg[K[Kgit status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   2401/report.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m3101/[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c28/cs232[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c28/cs232[00m$ git gti ad[K[K[K[K[K[Kadd .
+]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c28/cs232[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c28/cs232[00m$ git ocmm[K[K[K[Kcommti -[K[K[K[Kit -m "ca[Khanges[Ks [K[K[K[K[K[K[K[Ks[Knew files"
+[master f48411f] new files
+ 7 files changed, 1846 insertions(+), 1 deletion(-)
+ create mode 100644 3101/S1cres.txt
+ create mode 100644 3101/report.txt
+ create mode 100644 3101/result_CHN.pdf
+ create mode 100644 3101/result_CHN.txt
+ create mode 100644 3101/script.py
+ create mode 100644 3101/work.txt
+]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c28/cs232[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c28/cs232[00m$ git comm[K[K[K[Kpush org[Kigin master
+Username for 'https://github.com': ceccs18c28
+Password for 'https://ceccs18c28@github.com': 
+Counting objects: 11, done.
+Delta compression using up to 4 threads.
+Compressing objects:   9% (1/11)   Compressing objects:  18% (2/11)   Compressing objects:  27% (3/11)   Compressing objects:  36% (4/11)   Compressing objects:  45% (5/11)   Compressing objects:  54% (6/11)   Compressing objects:  63% (7/11)   Compressing objects:  72% (8/11)   Compressing objects:  81% (9/11)   Compressing objects:  90% (10/11)   Compressing objects: 100% (11/11)   Compressing objects: 100% (11/11), done.
+Writing objects:   9% (1/11)   Writing objects:  18% (2/11)   Writing objects:  27% (3/11)   Writing objects:  36% (4/11)   Writing objects:  45% (5/11)   Writing objects:  54% (6/11)   Writing objects:  63% (7/11)   Writing objects:  72% (8/11)   Writing objects:  81% (9/11)   Writing objects:  90% (10/11)   Writing objects: 100% (11/11)   Writing objects: 100% (11/11), 36.32 KiB | 0 bytes/s, done.
+Total 11 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To https://github.com/ceccs18c28/cs232
+   a541dc8..f48411f  master -> master
+]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c28/cs232[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c28/cs232[00m$ git push origin mastercommit -m "new files"add .[Kstatus[1Padd .commit -m "new files"[3Ppush origin master[Ksftp cs18c28@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c28@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> mkdir
+You must specify a path after a mkdir command.
+sftp> 3[Kmkdir 3101
+sftp> cd 3101
+sftp> put work.yxt[K[K[Ktxt
+stat work.txt: No such file or directory
+sftp> put /home/ceclab2/ceccs18c28/cs232/3101/work.txt
+Uploading /home/ceclab2/ceccs18c28/cs232/3101/work.txt to /home/cs18c28/3101/work.txt
+/home/ceclab2/ceccs18c28/cs232/3101/work.txt    0%    0     0.0KB/s   --:-- ETA/home/ceclab2/ceccs18c28/cs232/3101/work.txt  100%   28KB  28.0KB/s   00:00    
+sftp> put /home/ceclab2/ceccs18c28/cs232/3101/report.txt
+Uploading /home/ceclab2/ceccs18c28/cs232/3101/report.txt to /home/cs18c28/3101/report.txt
+/home/ceclab2/ceccs18c28/cs232/3101/report.tx   0%    0     0.0KB/s   --:-- ETA/home/ceclab2/ceccs18c28/cs232/3101/report.tx 100%  718     0.7KB/s   00:00    
+sftp> put /home/ceclab2/ceccs18c28/cs232/3101/result_CHN.txt
+Uploading /home/ceclab2/ceccs18c28/cs232/3101/result_CHN.txt to /home/cs18c28/3101/result_CHN.txt
+/home/ceclab2/ceccs18c28/cs232/3101/result_CH   0%    0     0.0KB/s   --:-- ETA/home/ceclab2/ceccs18c28/cs232/3101/result_CH 100%   46KB  46.1KB/s   00:00    
+sftp> put /home/ceclab2/ceccs18c28/cs232/3101/s1cres.txt
+stat /home/ceclab2/ceccs18c28/cs232/3101/s1cres.txt: No such file or directory
+sftp> put /home/ceclab2/ceccs18c28/cs232/3101/script.py
+Uploading /home/ceclab2/ceccs18c28/cs232/3101/script.py to /home/cs18c28/3101/script.py
+/home/ceclab2/ceccs18c28/cs232/3101/script.py   0%    0     0.0KB/s   --:-- ETA/home/ceclab2/ceccs18c28/cs232/3101/script.py 100%  269     0.3KB/s   00:00    
+sftp> cd ..
+sftp> la[Ks
+3101                examples.desktop    
+sftp> mkdir 2401
+sftp> cd 2401
+sftp> put /home/ceclab2/ceccs18c28/cs232/2401/report.txt
+Uploading /home/ceclab2/ceccs18c28/cs232/2401/report.txt to /home/cs18c28/2401/report.txt
+/home/ceclab2/ceccs18c28/cs232/2401/report.tx   0%    0     0.0KB/s   --:-- ETA/home/ceclab2/ceccs18c28/cs232/2401/report.tx 100%  492     0.5KB/s   00:00    
+sftp> put /home/ceclab2/ceccs18c28/cs232/2401/work.txt
+Uploading /home/ceclab2/ceccs18c28/cs232/2401/work.txt to /home/cs18c28/2401/work.txt
+/home/ceclab2/ceccs18c28/cs232/2401/work.txt    0%    0     0.0KB/s   --:-- ETA/home/ceclab2/ceccs18c28/cs232/2401/work.txt  100%   42KB  42.2KB/s   00:00    
+sftp> /home/ceclab2/ceccs18c28/cs232/2401/script1.yxt[K[K[Ktxt
+Invalid command.
+sftp> put /home/ceclab2/ceccs18c28/cs232/2401/script1.t[K[K.txt
+Uploading /home/ceclab2/ceccs18c28/cs232/2401/script1.txt to /home/cs18c28/2401/script1.txt
+/home/ceclab2/ceccs18c28/cs232/2401/script1.t   0%    0     0.0KB/s   --:-- ETA/home/ceclab2/ceccs18c28/cs232/2401/script1.t 100% 9482     9.3KB/s   00:00    
+sftp> ls
+report.txt   script1.txt  work.txt     
+sftp> put /home/ceclab2/ceccs18c28/cs232/2401/name.tcx[K[Kxt
+Uploading /home/ceclab2/ceccs18c28/cs232/2401/name.txt to /home/cs18c28/2401/name.txt
+/home/ceclab2/ceccs18c28/cs232/2401/name.txt    0%    0     0.0KB/s   --:-- ETA/home/ceclab2/ceccs18c28/cs232/2401/name.txt  100%   32     0.0KB/s   00:00    
+sftp> /home/ceclab2/ceccs18c28/cs232/2401[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kput /home/ceclab2/ceccs18c28/cs232/2401/name.txt
+Uploading /home/ceclab2/ceccs18c28/cs232/2401/name.txt to /home/cs18c28/2401/name.txt
+/home/ceclab2/ceccs18c28/cs232/2401/name.txt    0%    0     0.0KB/s   --:-- ETA/home/ceclab2/ceccs18c28/cs232/2401/name.txt  100%   32     0.0KB/s   00:00    
+sftp> put /home/ceclab2/ceccs18c28/cs232/2401/numb.txt
+Uploading /home/ceclab2/ceccs18c28/cs232/2401/numb.txt to /home/cs18c28/2401/numb.txt
+/home/ceclab2/ceccs18c28/cs232/2401/numb.txt    0%    0     0.0KB/s   --:-- ETA/home/ceclab2/ceccs18c28/cs232/2401/numb.txt  100%   13     0.0KB/s   00:00    
+sftp> put /home/ceclab2/ceccs18c28/cs232/2401/text.txt
+stat /home/ceclab2/ceccs18c28/cs232/2401/text.txt: No such file or directory
+sftp> ls
+name.txt     numb.txt     report.txt   script1.txt  work.txt     
+sftp> exit
+]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c28/cs232[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c28/cs232[00m$ exit
+exit
+
+Script done on Friday 31 January 2020 12:43:32 PM IST
