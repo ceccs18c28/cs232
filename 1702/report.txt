@@ -1,0 +1,55 @@
+CEC CS 18 C28
+Jessal John Mammen
+
+--------------------------------
+
+#1: Ftp usage (t5)
+
+---------------------------------
+Command/Shell script/Program name
+---------------------------------
+	
+	sftp cs18c28@192.168.0.30
+	put file.txt
+	quit
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+	# sftp cs18c28@192.168.0.30, connect to host 192.168.0.30 via sftp
+
+	# put file.txt, upload file.txt
+
+	# quit, quit current ftp session
+
+
+-------------------
+Remarks if any:
+		
+
+-------------------------------------
+#3: Further Networking tasks (t4)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+
+	ssh
+	rsync
+	scp
+
+--------------------------------
+Output: 
+
+	# ssh cs18c28@192.168.0.30, is used to open a secured connection to remote device
+	
+	# rsync temp1.txt cs18c28@192.168.0.30:1702, is used to push temp1.txt from the system to the directory 1702 in the server
+	
+
+
+-------------------
+Remarks if any:
+
+
+
+
