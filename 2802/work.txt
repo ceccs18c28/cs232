@@ -45,4 +45,53 @@ cs18c28@192.168.0.30's password:
 Permission denied, please try again.
 cs18c28@192.168.0.30's password: 
 Connected to 192.168.0.30.
-sftp> put -r'/home/ceclab2/cecc
+sftp> put -r'/home/ceclab2/ceccs18c28/cs232/index.html' [1@ '
+Uploading /home/ceclab2/ceccs18c28/cs232/index.html to /home/cs18c28/index.html
+/home/ceclab2/ceccs18c28/cs232/index.html       0%    0     0.0KB/s   --:-- ETA/home/ceclab2/ceccs18c28/cs232/index.html     100% 3135     3.1KB/s   00:00    
+sftp> ls
+0702                1702                2401                3101                
+examples.desktop    index.html          
+sftp> exit
+]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c28/cs232[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c28/cs232[00m$ git add -a[KA
+]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c28/cs232[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c28/cs232[00m$ git commit -m "webpagew [K[Ke [K[K uploaded"
+[master b3e95fc] webpage uploaded
+ 3 files changed, 187 insertions(+)
+ create mode 100644 2802/report.txt
+ create mode 100644 2802/work.txt
+ create mode 100644 index.html
+]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c28/cs232[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c28/cs232[00m$ gitr [K[K push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': ceccs18c28
+Password for 'https://ceccs18c28@github.com': 
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects:  16% (1/6)   Compressing objects:  33% (2/6)   Compressing objects:  50% (3/6)   Compressing objects:  66% (4/6)   Compressing objects:  83% (5/6)   Compressing objects: 100% (6/6)   Compressing objects: 100% (6/6), done.
+Writing objects:  16% (1/6)   Writing objects:  33% (2/6)   Writing objects:  50% (3/6)   Writing objects:  66% (4/6)   Writing objects:  83% (5/6)   Writing objects: 100% (6/6)   Writing objects: 100% (6/6), 13.66 KiB | 0 bytes/s, done.
+Total 6 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/ceccs18c28/cs232
+   91e662b..b3e95fc  master -> master
+]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c28/cs232[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c28/cs232[00m$ exit
+exit
+
+Script done on Friday 28 February 2020 11:04:29 AM IST

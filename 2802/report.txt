@@ -3,37 +3,26 @@ Jessal John Mammen
 
 --------------------------------
 
-#1: Scripting Task (t2)
-
----------------------------------
-Command/Shell script/Program name
----------------------------------
-	
-	
-
---------------------------------
-Output: or Input & Output (whichever is applicable)
-
-
--------------------
-Remarks if any: Some more corrections in script.py and completed
-		
 
 -------------------------------------
-#3: Create own web page at our server(t9)
+#1: Create own web page at our server(t9)
 ---------------------------------
 
-Command/Shell script/Program name
----------------------------------
+# To fetch the sample index	
+	wget http://192.168.0.30/cs17d/cs17d00
+	# To put the page to the server
+	sftp
+	# To edit the contents of .html file
+	nano 	
 
-	
 --------------------------------
 Output: 
 
-	Created a webpage in the server about a summary of foss lab experiments
-
+	The page can be viewed at http://192.168.0.30/cs18c28/cs18c28
 
 -------------------
 Remarks if any:
+	
+	
 
 
